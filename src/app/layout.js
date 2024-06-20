@@ -1,5 +1,5 @@
 import "./reset.css";
-import "./globals.css";
+import "./scss/style.css";
 
 export const metadata = {
   title: "JHS-Portfolio",

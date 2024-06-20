@@ -1,0 +1,26 @@
+.section-2 {
+  background-color: ivory;
+}
+.section-second {
+  width: 100%;
+  max-width: 71.25rem;
+  padding: 1.25rem 2rem;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  text-align: center;
+  line-height: 1.5;
+}
+.section-title {
+  font-weight: 400;
+  font-size: 3rem;
+}
+.wrap {
+  display: flex;
+  flex-flow: row wrap;
+}
+.wrap-content {
+  display: flex;
+  margin-bottom: 2rem;
+  width: 33.3%;
+  text-align: start;
+}
