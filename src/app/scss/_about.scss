@@ -19,8 +19,25 @@
   flex-flow: row wrap;
 }
 .wrap-content {
-  display: flex;
   margin-bottom: 2rem;
   width: 33.3%;
   text-align: start;
+}
+.info-area {
+  display: flex;
+  width: 100%;
+  max-width: 14rem;
+  margin: 0 auto;
+}
+.info-label {
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+.info-value {
+  font-weight: 400;
+  font-size: 1rem;
+}
+.info{
+  margin-left: 2rem;
 }

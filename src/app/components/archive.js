@@ -7,12 +7,12 @@ export default function Archive() {
         <div className="section-fourth">
           <p className="section-title">ARCHIVE</p>
           <div className="wrapper">
-            <div>
+            <div className="archive-container">
               <img src="/github.jpg" alt="" />
               <p>github.com</p>
               <p>소스 코드 저장소입니다.</p>
             </div>
-            <div>
+            <div className="archive-container">
               <BlogIcon width="100px" height="100px" />
               <p>blog.com</p>
               <p>공부 및 지식 공유 목적의 블로그입니다.</p>

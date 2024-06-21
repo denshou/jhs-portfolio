@@ -14,6 +14,26 @@
   font-weight: 400;
   font-size: 3rem;
 }
-img {
-  height: 100px;
+.skills-list {
+  display: flex;
+  flex-flow: column wrap;
+  height: 50rem;
+}
+.stack {
+  p {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #f4623a;
+  }
+  img {
+    height: 100px;
+    margin: 0 0.2rem;
+    border: 1px solid none;
+    border-radius: 1rem;
+    background-color: white;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);
+  }
+  .skill-icon{
+    padding: 0 0.5rem;
+  }
 }
