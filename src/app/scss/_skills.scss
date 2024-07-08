@@ -1,5 +1,5 @@
 .section-3 {
-  background-color: lightyellow;
+  background-color: #ffc107;
 }
 .section-third {
   width: 100%;
@@ -10,20 +10,28 @@
   text-align: center;
   line-height: 1.5;
 }
-.section-title {
-  font-weight: 400;
-  font-size: 3rem;
-}
 .skills-list {
   display: flex;
   flex-flow: column wrap;
-  height: 50rem;
+  height: 55rem;
+  align-content: space-around;
 }
 .stack {
+  display: table;
+  width: 20rem;
+  margin: 0 1rem;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 1rem 1rem 1rem 0 rgba(68,68,68,.2);
+  margin-bottom: 2rem;
+  padding: 1rem;
   p {
     font-weight: 700;
     font-size: 1.5rem;
     color: #f4623a;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
   }
   img {
     height: 100px;
@@ -31,7 +39,7 @@
     border: 1px solid none;
     border-radius: 1rem;
     background-color: white;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);
+    // box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);
   }
   .skill-icon{
     padding: 0 0.5rem;

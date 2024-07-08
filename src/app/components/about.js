@@ -10,7 +10,7 @@ export default function About() {
     <>
       <div className="section-2">
         <div className="section-second">
-          <p className="section-title">ABOUT ME</p>
+          <div className="section-title">ABOUT ME</div>
           <div className="wrap">
             <div className="wrap-content">
               <div className="info-area">

@@ -1,5 +1,5 @@
 .section-2 {
-  background-color: ivory;
+  background-color: white;
 }
 
 .section-second {
@@ -13,8 +13,11 @@
 }
 
 .section-title {
-  font-weight: 400;
+  display: table;
+  font-weight: 600;
   font-size: 3rem;
+  margin: 0 auto 3rem;
+  border-bottom: 1px solid black;
 }
 
 .wrap {
@@ -65,6 +68,7 @@
 }
 .section-fourth .section-title {
   color: white;
+  border-color: white;
 }
 
 .wrapper {
@@ -86,7 +90,7 @@
 }
 
 .section-1 {
-  background-color: rgba(173, 86, 27, 0.76);
+  background-color: rgba(145, 141, 139, 0.856);
 }
 
 .section-first {
@@ -100,7 +104,7 @@
 }
 
 .masthead-title {
-  font-weight: 400;
+  font-weight: 600;
   font-size: 4rem;
   color: #fff;
 }
@@ -224,7 +228,7 @@
 }
 
 .section-3 {
-  background-color: lightyellow;
+  background-color: #ffc107;
 }
 
 .section-third {
@@ -237,21 +241,30 @@
   line-height: 1.5;
 }
 
-.section-title {
-  font-weight: 400;
-  font-size: 3rem;
-}
-
 .skills-list {
   display: flex;
   flex-flow: column wrap;
-  height: 50rem;
+  height: 55rem;
+  align-content: space-around;
 }
 
+.stack {
+  display: table;
+  width: 20rem;
+  margin: 0 1rem;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 1rem 1rem 1rem 0 rgba(68, 68, 68, 0.2);
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
 .stack p {
   font-weight: 700;
   font-size: 1.5rem;
   color: #f4623a;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
 }
 .stack img {
   height: 100px;
@@ -259,7 +272,6 @@
   border: 1px solid none;
   border-radius: 1rem;
   background-color: white;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);
 }
 .stack .skill-icon {
   padding: 0 0.5rem;

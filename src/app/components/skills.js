@@ -10,16 +10,15 @@ export default function Skills() {
             <div className="skills-list">
               <div className="stack">
                 <p>Frontend</p>
-                <img src="/HTML5.png" alt="" />
-                {/* <CssIcon width="100px" height="100px" /> */}
-                <img src="/css.png" alt="" />
-                <img src="/js.png" alt="" />
-                <img src="/sass.png" className="skill-icon" alt="" />
-                <img src="/react.png" alt="" />
-                <img src="/redux.png" alt="" />
-                <img src="/next.png" className="skill-icon" alt="" />
-                <img src="/bootstrap.png" alt="" />
-                <img src="/tailwindcss.png" alt="" />
+                  <img src="/HTML5.png" alt="" />
+                  <img src="/css.png" alt="" />
+                  <img src="/js.png" alt="" />
+                  <img src="/sass.png" className="skill-icon" alt="" />
+                  <img src="/react.png" alt="" />
+                  <img src="/redux.png" alt="" />
+                  <img src="/next.png" className="skill-icon" alt="" />
+                  <img src="/bootstrap.png" alt="" />
+                  <img src="/tailwindcss.png" alt="" />
               </div>
               <div className="stack">
                 <p>Deployment</p>
@@ -31,10 +30,10 @@ export default function Skills() {
                 <img src="/git.png" alt="" />
                 <img src="/github.jpg" alt="" />
               </div>
-              <div className="stack">
+              {/* <div className="stack">
                 <p>Backend</p>
                 <img src="/firebase.png" alt="" />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

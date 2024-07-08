@@ -1,5 +1,5 @@
 .section-2 {
-  background-color: ivory;
+  background-color: white;
 }
 .section-second {
   width: 100%;
@@ -11,8 +11,11 @@
   line-height: 1.5;
 }
 .section-title {
-  font-weight: 400;
+  display: table;
+  font-weight: 600;
   font-size: 3rem;
+  margin: 0 auto 3rem;
+  border-bottom: 1px solid black;
 }
 .wrap {
   display: flex;
@@ -38,6 +41,6 @@
   font-weight: 400;
   font-size: 1rem;
 }
-.info{
+.info {
   margin-left: 2rem;
 }
