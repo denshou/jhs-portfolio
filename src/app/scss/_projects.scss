@@ -36,3 +36,25 @@
   display: flex;
   justify-content: center;
 }
+.pj-img {
+  width: 50%;
+
+  img {
+    width: 100%;
+  }
+}
+.pj-description {
+  width: 50%;
+}
+.main-des {
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+.sub-des {
+  display: flex;
+}
+.label {
+  width: 8.4rem;
+  font-weight: 900;
+}
