@@ -25,10 +25,17 @@
   }
 }
 .archive-container {
+  // display: flex;
+  // flex-direction: column;
   width: 26rem;
   padding: 2rem;
   border-radius: 1rem;
   background-color: white;
-  text-decoration: none;
-  cursor: pointer;
+  a {
+    color: #58a1df;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }

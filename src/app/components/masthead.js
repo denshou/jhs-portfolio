@@ -1,7 +1,7 @@
 export default function Masthead() {
   return (
     <>
-      <div className="section-1">
+      <div className="section-1" id="home">
         <div className="section-first">
           <p className="masthead-title">프론트 엔드 개발자 포트폴리오</p>
           <hr className="masthead-hr" />

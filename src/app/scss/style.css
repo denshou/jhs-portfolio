@@ -85,8 +85,13 @@
   padding: 2rem;
   border-radius: 1rem;
   background-color: white;
+}
+.archive-container a {
+  color: #58a1df;
   text-decoration: none;
-  cursor: pointer;
+}
+.archive-container a:hover {
+  text-decoration: underline;
 }
 
 .section-1 {
@@ -229,6 +234,7 @@
 
 .pj-img {
   width: 50%;
+  padding-right: 1rem;
 }
 .pj-img img {
   width: 100%;
@@ -236,6 +242,7 @@
 
 .pj-description {
   width: 50%;
+  padding-left: 1rem;
 }
 
 .main-des {
@@ -246,11 +253,24 @@
 
 .sub-des {
   display: flex;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+.sub-des a {
+  color: #58a1df;
+  text-decoration: none;
+}
+.sub-des a:hover {
+  text-decoration: underline;
 }
 
 .label {
-  width: 8.4rem;
+  width: 6rem;
   font-weight: 900;
+}
+
+.value {
+  width: calc(100% - 6rem);
 }
 
 .section-3 {
@@ -276,7 +296,7 @@
 
 .stack {
   display: table;
-  width: 20rem;
+  width: 18.5rem;
   margin: 0 1rem;
   background-color: white;
   border-radius: 16px;
@@ -291,14 +311,8 @@
   border-bottom: 1px solid #ccc;
   margin-bottom: 1.5rem;
   padding-bottom: 0.5rem;
-}
-.stack img {
-  height: 100px;
-  margin: 0 0.2rem;
-  border: 1px solid none;
-  border-radius: 1rem;
-  background-color: white;
+  text-align: left;
 }
 .stack .skill-icon {
-  padding: 0 0.5rem;
+  padding: 1rem 0;
 }/*# sourceMappingURL=style.css.map */

@@ -16,11 +16,11 @@ export default function Home() {
   return (
     <div className={`${Noto.className}`}>
       <Nav />
-      <Masthead />
-      <About />
-      <Skills />
-      <Archive />
-      <Projects />
+      <div id="home"><Masthead /></div>
+      <div id="about"><About /></div>
+      <div id="skills"><Skills /></div>
+      <div id="archive"><Archive /></div>
+      <div id="projects"><Projects /></div>
       <div>
         <p>footer</p>
       </div>

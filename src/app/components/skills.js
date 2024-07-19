@@ -1,4 +1,3 @@
-import CssIcon from "/public/css.svg";
 
 export default function Skills() {
   return (
@@ -10,25 +9,28 @@ export default function Skills() {
             <div className="skills-list">
               <div className="stack">
                 <p>Frontend</p>
-                  <img src="/HTML5.png" alt="" />
+                  {/* <img src="/HTML5.png" alt="" />
                   <img src="/css.png" alt="" />
                   <img src="/js.png" alt="" />
                   <img src="/sass.png" className="skill-icon" alt="" />
                   <img src="/react.png" alt="" />
                   <img src="/redux.png" alt="" />
-                  <img src="/next.png" className="skill-icon" alt="" />
+                  <img src="/next.png" alt="" />
                   <img src="/bootstrap.png" alt="" />
-                  <img src="/tailwindcss.png" alt="" />
+                  <img src="/tailwindcss.png" alt="" /> */}
+                  <img src="/front.png" alt="" />
               </div>
               <div className="stack">
                 <p>Deployment</p>
-                <img src="/Vercel.png" alt="" />
-                <img src="/netlify.png" alt="" />
+                {/* <img src="/Vercel.png" alt="" />
+                <img src="/netlify.png" alt="" /> */}
+                <img src="/deploy.png" alt="" />
               </div>
               <div className="stack">
                 <p>Version Control</p>
-                <img src="/git.png" alt="" />
-                <img src="/github.jpg" alt="" />
+                {/* <img src="/git.png" alt="" />
+                <img src="/github.jpg" alt="" /> */}
+                <img src="/version.png" alt="" />
               </div>
               {/* <div className="stack">
                 <p>Backend</p>

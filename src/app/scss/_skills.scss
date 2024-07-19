@@ -18,7 +18,7 @@
 }
 .stack {
   display: table;
-  width: 20rem;
+  width: 18.5rem;
   margin: 0 1rem;
   background-color: white;
   border-radius: 16px;
@@ -32,16 +32,17 @@
     border-bottom: 1px solid #ccc;
     margin-bottom: 1.5rem;
     padding-bottom: 0.5rem;
+    text-align: left;
   }
-  img {
-    height: 100px;
-    margin: 0 0.2rem;
-    border: 1px solid none;
-    border-radius: 1rem;
-    background-color: white;
-    // box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);
-  }
+  // img {
+  //   height: 100px;
+  //   margin: 0 0.2rem;
+  //   border: 1px solid none;
+  //   border-radius: 1rem;
+  //   background-color: white;
+  //   // box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.2);
+  // }
   .skill-icon{
-    padding: 0 0.5rem;
+    padding: 1rem 0;
   }
 }
