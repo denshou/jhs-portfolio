@@ -1,6 +1,19 @@
 import Link from "next/link";
+import Carousel from "./carousel";
 
 export default function Projects() {
+  const slides1 = [
+    { id: 1, title: "Slide 1", image: "/nuwa/nuwa1.png" },
+    { id: 2, title: "Slide 2", image: "/nuwa/nuwa2.png" },
+    { id: 3, title: "Slide 3", image: "/nuwa/nuwa3.png" },
+    { id: 4, title: "Slide 4", image: "/nuwa/nuwa4.png" },
+  ];
+  const slides2 = [
+    { id: 1, title: "Slide 1", image: "/sf/sf1.png" },
+    { id: 2, title: "Slide 2", image: "/sf/sf2.png" },
+    { id: 3, title: "Slide 3", image: "/sf/sf3.png" },
+  ];
+
   return (
     <>
       <div className="section-5">
@@ -11,7 +24,7 @@ export default function Projects() {
             <p className="pj-span">2024.01~2024.04(7인 프로젝트)</p>
             <div className="pj-detail">
               <div className="pj-img">
-                <img src="/nuwa1.png" alt="" />
+                <Carousel images={slides1} />
               </div>
               <div className="pj-description">
                 <p className="main-des">
@@ -38,7 +51,9 @@ export default function Projects() {
                 </div>
                 <div className="sub-des">
                   <div className="label">GitHub</div>
-                  <Link href={"https://github.com/NU-WA-Project"}>github.com/NU-WA-Project</Link>
+                  <Link href={"https://github.com/NU-WA-Project"}>
+                    github.com/NU-WA-Project
+                  </Link>
                 </div>
                 <div className="sub-des">
                   <div className="label">URL</div>
@@ -55,7 +70,7 @@ export default function Projects() {
             <p className="pj-span">2023.10~2023.11(9인 프로젝트)</p>
             <div className="pj-detail">
               <div className="pj-img">
-                <img src="/nuwa1.png" alt="" />
+                <Carousel images={slides2} />
               </div>
               <div className="pj-description">
                 <div className="sub-des">
@@ -79,7 +94,9 @@ export default function Projects() {
                 </div>
                 <div className="sub-des">
                   <div className="label">GitHub</div>
-                  <Link href={"https://github.com/20231016-3rd-project"}>github.com/20231016-3rd-project</Link>
+                  <Link href={"https://github.com/20231016-3rd-project"}>
+                    github.com/20231016-3rd-project
+                  </Link>
                 </div>
                 <div className="hash">
                   <p>#React #typescript #Redux Toolkit #mySQL #SPRING </p>
