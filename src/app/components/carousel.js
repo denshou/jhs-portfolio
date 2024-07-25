@@ -7,6 +7,10 @@ import "slick-carousel/slick/slick-theme.css";
 import "./cs.css";
 
 const Carousel = ({ images }) => {
+  console.log(images);
+  const imageStr = images.replace(/{|}|"/g, "");
+  const imageArr = imageStr.split(",").map((image) => image.trim());
+
   const settings = {
     dots: true,
     infinite: true,
@@ -17,9 +21,9 @@ const Carousel = ({ images }) => {
 
   return (
     <Slider {...settings}>
-      {images.map((slide) => (
-        <div key={slide.id}>
-          <img src={slide.image} alt={slide.title} />
+      {imageArr.map((image, i) => (
+        <div key={i}>
+          <img src={image} alt={i} />
         </div>
       ))}
     </Slider>
