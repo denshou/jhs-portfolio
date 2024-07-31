@@ -1,46 +1,36 @@
 .section-2 {
   background-color: white;
 }
-.section-second {
-  width: 100%;
-  max-width: 71.25rem;
-  padding: 1.25rem 2rem;
-  margin: 0 auto;
-  padding: 4rem 2rem;
-  text-align: center;
-  line-height: 1.5;
-}
-.section-title {
-  display: table;
-  font-weight: 600;
-  font-size: 3rem;
-  margin: 0 auto 3rem;
-  border-bottom: 1px solid black;
-}
+
 .wrap {
   display: flex;
   flex-flow: row wrap;
+
+  .wrap-content {
+    margin-bottom: 2rem;
+    width: 33.3%;
+    text-align: start;
+  }
 }
-.wrap-content {
-  margin-bottom: 2rem;
-  width: 33.3%;
-  text-align: start;
-}
+
 .info-area {
   display: flex;
   width: 100%;
   max-width: 14rem;
   margin: 0 auto;
 }
-.info-label {
-  margin-bottom: 0.5rem;
-  font-weight: 700;
-  font-size: 1.25rem;
-}
-.info-value {
-  font-weight: 400;
-  font-size: 1rem;
-}
+
 .info {
   margin-left: 2rem;
+
+  .info-label {
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    font-size: 1.25rem;
+  }
+
+  .info-value {
+    font-weight: 400;
+    font-size: 1rem;
+  }
 }

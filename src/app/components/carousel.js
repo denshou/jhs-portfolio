@@ -4,7 +4,6 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "./cs.css";
 
 const Carousel = ({ images }) => {
   console.log(images);
@@ -20,7 +19,7 @@ const Carousel = ({ images }) => {
   };
 
   return (
-    <Slider {...settings}>
+    <Slider {...settings} className="carousel">
       {imageArr.map((image, i) => (
         <div key={i}>
           <img src={image} alt={i} />

@@ -20,9 +20,9 @@ export default function Nav() {
           </div>
         </div>
       </div>
-      <div className="page-up-btn">
+      {/* <div className="page-up-btn">
         <ArrowUp width='2rem' height='2rem'/>
-      </div>
+      </div> */}
     </>
   );
 }

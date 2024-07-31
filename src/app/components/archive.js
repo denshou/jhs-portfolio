@@ -5,7 +5,7 @@ export default function Archive() {
   return (
     <>
       <div className="section-4">
-        <div className="section-fourth">
+        <div className="container2">
           <p className="section-title">ARCHIVE</p>
           <div className="wrapper">
             <div className="archive-container">
