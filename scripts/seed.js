@@ -35,6 +35,19 @@ const Projects = [
     pageLink: "",
     hash: "#React #typescript #Redux Toolkit #mySQL #SPRING #aws",
   },
+  {
+    id: uuidv4(),
+    title: "포트폴리오 웹사이트",
+    period: "2024.07(개인 프로젝트)",
+    images: ["/pf/pf1.png", "/pf/pf2.png", "/pf/pf3.png"],
+    summary:
+      "포트폴리오 웹사이트입니다. Next.js의 기능을 학습해볼 수 있었고, Vercel과 Postgres를 통해 백엔드와 배포 기능을 사용해볼 수 있었습니다.",
+    description:
+      "자기소개, 인적 사항, 기술 스택, 프로젝트 경험",
+    githubLink: "https://github.com/denshou/jhs-portfolio",
+    pageLink: "jhs-portfolio.vercel.app",
+    hash: "#Next.js #Sass #Vercel #PostgreSQL",
+  },
 ];
 
 async function seedProjects(client) {

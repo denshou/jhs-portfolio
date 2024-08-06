@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import { Noto_Sans_KR } from "next/font/google";
 
 const Noto = Noto_Sans_KR({
@@ -30,9 +30,6 @@ export default function Home() {
       </div>
       <div id="projects">
         <Projects />
-      </div>
-      <div>
-        <p>footer</p>
       </div>
     </div>
   );
